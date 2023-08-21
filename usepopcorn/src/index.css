@@ -40,6 +40,11 @@ body {
   background-color: var(--color-primary);
   border-radius: 0.9rem;
 }
+.box::-webkit-scrollbar,
+.list::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
 
 .main {
   margin-top: 2.4rem;
